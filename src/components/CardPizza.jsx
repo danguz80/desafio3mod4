@@ -2,7 +2,7 @@ import React from 'react';
 
 const CardPizza = ({ name, price, ingredients, img }) => {
   return (
-    <div className="card" style={{ width: '33vw' }}>
+    <div className="card" style={{ width: '30rem' }}>
       <img src={img} className="card-img-top" alt={name} />
       <div className="card-body">
         <h5 className="card-title">{name}</h5>
